@@ -3,7 +3,7 @@ let XP = 0
 let rank 
 let inforPlayer = [nickname , XP , rank]
 
-while(inforPlayer[1] <= 10000) {
+while(inforPlayer[1] <= 11000) {
 
     switch(true) {
         case inforPlayer[1] <= 1000:
@@ -36,4 +36,4 @@ while(inforPlayer[1] <= 10000) {
     inforPlayer[1] += 1000
 }
 
-console.log(inforPlayer[0] + " digitou no chat : Finalmente " + inforPlayer[2])
+console.log(inforPlayer[0] + " digitou no chat : Oh meu Deus, o que eu fiz.")
